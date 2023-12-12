@@ -1,0 +1,57 @@
+
+.Home .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   
+ 
+  }
+  .Home a {
+  
+    color: #3f3333;
+    text-decoration: none;
+    
+  }
+  
+  .Home .content ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 27px;
+    margin-top: 20px;
+  }
+  
+  
+  .Home  .content li{
+    margin-left: 30px;
+    font-size: 18px;
+  
+  }
+  .Home  .content h1{
+
+    margin-left: 17px;
+  }
+  
+  .cover {
+  height: 250px;
+
+  }
+  .overlay{ 
+    position: relative;
+    bottom: -60px;
+    color: #000;
+  }
+  .Home_parent .cover{
+    height: 400px;
+    background-color: #f6f6f6;
+
+  }
+
+  .Home_parent .cover .overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  
+  }
